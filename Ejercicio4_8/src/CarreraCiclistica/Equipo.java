@@ -6,13 +6,13 @@ public class Equipo {
     private String nombre; 
     private static double totalTiempo;
     private String pais;
-    Vector listaCiclistas;
+    Vector<Ciclista> listaCiclistas;
     
     public Equipo(String nombre, String pais) {
         this.nombre = nombre;
         this.pais =  pais;
         totalTiempo = 0; 
-        listaCiclistas = new Vector();
+        listaCiclistas = new Vector<Ciclista>();
     }
         
     public String getNombre() {
@@ -31,7 +31,7 @@ public class Equipo {
         this.pais =  pais;
     }
 
-    void añadirCiclista(Ciclista ciclista) {
+    void addCiclista(Ciclista ciclista) {
     listaCiclistas.add(ciclista); // Se agrega el ciclista al vector de ciclistas
     }
     

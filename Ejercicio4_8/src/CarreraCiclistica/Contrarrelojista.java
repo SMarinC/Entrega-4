@@ -16,4 +16,13 @@ public class Contrarrelojista extends Ciclista {
     protected void setVelocidadMaxima(double velocidadMaxima) {
         this.velocidadMaxima = velocidadMaxima;
     }
+
+    protected void imprimir() {
+        super.imprimir();
+        System.out.println("Aceleración promedio = " + velocidadMaxima);
+    }
+
+    protected String imprimirTipo() {
+        return "Es un constrarrelojista";
+    }
 }
