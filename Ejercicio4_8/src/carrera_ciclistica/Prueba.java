@@ -1,4 +1,4 @@
-package CarreraCiclistica;
+package carrera_ciclistica;
 
 public class Prueba {
     public static void main(String[] args) {
@@ -6,14 +6,14 @@ public class Prueba {
         Velocista velocista1 = new Velocista(123979, "Geraint Thomas", 320, 25);
         Escalador escalador1 = new Escalador(123980, "Egan Bernal", 25, 10);
         Contrarrelojista contrarrelojista1 = new Contrarrelojista(123981,  "Jonathan Castroviejo", 120);
-        equipo1.addCiclista(velocista1);
-        equipo1.addCiclista(escalador1);
-        equipo1.addCiclista(contrarrelojista1);
-        velocista1.setTiempoAcumulado(365);
-        escalador1.setTiempoAcumulado(385);
-        contrarrelojista1.setTiempoAcumulado(370);
-        equipo1.calcularTotalTiempo();
+        equipo1.add_ciclista(velocista1);
+        equipo1.add_ciclista(escalador1);
+        equipo1.add_ciclista(contrarrelojista1);
+        velocista1.set_tiempo_acumulado(365);
+        escalador1.set_tiempo_acumulado(385);
+        contrarrelojista1.set_tiempo_acumulado(370);
+        equipo1.calcular_total_tiempo();
         equipo1.imprimir();
-        equipo1.listarEquipo();
+        equipo1.listar_equipo();
     }
 }

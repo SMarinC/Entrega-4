@@ -4,13 +4,13 @@ package personas;
 public class Persona {
     String nombre; 
     String apellidos;
-    String teléfono;
-    String dirección; 
+    String telefono;
+    String direccion; 
     
     public Persona(String nombre, String apellidos, String teléfono, String dirección) {
         this.nombre = nombre;
         this.apellidos = apellidos;
-        this.teléfono = teléfono;
-        this.dirección = dirección;
+        this.telefono = teléfono;
+        this.direccion = dirección;
     }
 }
