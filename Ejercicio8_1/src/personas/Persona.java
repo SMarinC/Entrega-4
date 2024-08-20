@@ -7,10 +7,10 @@ public class Persona {
     String telefono;
     String direccion; 
     
-    public Persona(String nombre, String apellidos, String teléfono, String dirección) {
+    public Persona(String nombre, String apellidos, String telefono, String direccion) {
         this.nombre = nombre;
         this.apellidos = apellidos;
-        this.telefono = teléfono;
-        this.direccion = dirección;
+        this.telefono = telefono;
+        this.direccion = direccion;
     }
 }
