@@ -9379,6 +9379,24 @@
 					]
 				}
 			]
+		},
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAGRbiPFiANCA/0=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model2",
+			"ownedElements": [
+				{
+					"_type": "UMLUseCaseDiagram",
+					"_id": "AAAAAAGRbiPFiQNDqzk=",
+					"_parent": {
+						"$ref": "AAAAAAGRbiPFiANCA/0="
+					},
+					"name": "UseCaseDiagram1"
+				}
+			]
 		}
 	]
 }
